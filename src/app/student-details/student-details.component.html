@@ -1,0 +1,18 @@
+<div *ngIf="student">
+  <div>
+    <label>Name: </label> {{student.name}}
+  </div>
+  <div>
+    <label>Age: </label> {{student.age}}
+  </div>
+
+  <div>
+    <label>Department: </label> {{student.subject}}
+  </div>
+  
+
+  
+  <span class="button is-small btn-danger" (click)='deleteStudent()'>Delete</span>
+
+  <hr/>
+</div>
